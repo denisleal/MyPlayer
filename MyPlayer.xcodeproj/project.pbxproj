@@ -19,6 +19,7 @@
 		8E72865722AAE44E0022878D /* MyPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72865622AAE44E0022878D /* MyPlayerUITests.swift */; };
 		8E72866522AAE7460022878D /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72866422AAE7460022878D /* PlayerView.swift */; };
 		8E72866A22AAF1F60022878D /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E72866922AAF1F60022878D /* PlayerUIView.swift */; };
+		8EB2BBF922B0387A00FEA429 /* PlayerBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB2BBF822B0387A00FEA429 /* PlayerBottomBar.swift */; };
 		FA6C1D5C74DE6BFCE6143051 /* Pods_MyPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E309A7DB64E2D4716902B8 /* Pods_MyPlayerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		8E72866422AAE7460022878D /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		8E72866822AAEC760022878D /* MyPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		8E72866922AAF1F60022878D /* PlayerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		8EB2BBF822B0387A00FEA429 /* PlayerBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerBottomBar.swift; sourceTree = "<group>"; };
 		A73820B41E03A3CFEEE98410 /* Pods-MyPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlayer.release.xcconfig"; path = "Target Support Files/Pods-MyPlayer/Pods-MyPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +145,7 @@
 				8E72863C22AAE44D0022878D /* Preview Content */,
 				8E72866422AAE7460022878D /* PlayerView.swift */,
 				8E72866922AAF1F60022878D /* PlayerUIView.swift */,
+				8EB2BBF822B0387A00FEA429 /* PlayerBottomBar.swift */,
 				8E72866822AAEC760022878D /* MyPlayer-Bridging-Header.h */,
 			);
 			path = MyPlayer;
@@ -390,6 +393,7 @@
 				8E72863522AAE44D0022878D /* AppDelegate.swift in Sources */,
 				8E72866A22AAF1F60022878D /* PlayerUIView.swift in Sources */,
 				8E72863722AAE44D0022878D /* SceneDelegate.swift in Sources */,
+				8EB2BBF922B0387A00FEA429 /* PlayerBottomBar.swift in Sources */,
 				8E72863922AAE44D0022878D /* ContentView.swift in Sources */,
 				8E72866522AAE7460022878D /* PlayerView.swift in Sources */,
 			);

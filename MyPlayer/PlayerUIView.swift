@@ -9,26 +9,30 @@
 import SwiftUI
 
 struct PlayerUIView : View {
-    let playerView = PlayerView()
+    let playerView = PlayerView(mediaUrl: "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+    )
+
+    var player: VLCMediaPlayer {
+        return playerView.player
+    }
 
     var body: some View {
-        VStack {
+        ZStack {
             playerView
-            HStack(spacing: 100.0) {
-                Button(action: {
-                    self.playerView.stopVideo()
-                }) {
-                    Text("Stop")
-                }
+                .edgesIgnoringSafeArea(.all)
 
-                Button(action: {
-                    self.playerView.playVideo()
-                }) {
-                    Text("Play")
-                }
+            VStack {
+                Spacer()
+                PlayerBottomBar(playButtonAction: didTapPlayButton)
             }
-            .padding()
+        }
+    }
 
+    private func didTapPlayButton() {
+        if player.isPlaying {
+            player.stop()
+        } else {
+            player.play()
         }
     }
 }
