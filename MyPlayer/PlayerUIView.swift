@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct PlayerUIView : View {
-    let playerView = PlayerView(mediaUrl: "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8"
+    let playerView = PlayerView(mediaUrl: "http://s1tvusa.ddns.net:25461/denisflu@gmail.com/67c9dba6f08f57ab702fb6cc3e5376a9cbb00f93d7673479767c64dc03ee9a2706211092c0969e8459723e48e74c07f9a395f0abef7a3cd18bdc43518abddd6a/2851"
     )
 
     var player: VLCMediaPlayer {

@@ -1,12 +1,12 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'MyPlayer' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   # Pods for MyPlayer
-  pod 'MobileVLCKit', '3.3.2'
+  pod 'MobileVLCKit', '~>3.3.0'
 
   target 'MyPlayerTests' do
     inherit! :search_paths
